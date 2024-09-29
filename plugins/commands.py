@@ -54,7 +54,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('💝 Jᴏɪᴊ Oᴜʀ Mᴀɪɴ Cʜᴀɴɴᴇʟ ✅', url='https://t.me/tamil_mini')
+            InlineKeyboardButton('💝 Jᴏɪɴ Oᴜʀ Mᴀɪɴ Cʜᴀɴɴᴇʟ ✅', url='https://t.me/tamil_mini')
             ],[
             InlineKeyboardButton('🔍 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url='https://t.me/+uw9usQhoe602Yzk9'),
             InlineKeyboardButton('🤖 Bᴀᴄᴋᴜᴘ Cʜᴀɴɴᴇʟ', url='https://t.me/addlist/JsbdiGN2ObJhMWNl')
