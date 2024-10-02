@@ -58,7 +58,7 @@ def get_size(size):
 
 
 @Client.on_message(filters.command("start") & filters.incoming)
-async def start(client, message):
+async def start(bot,update):
     client = bot
     message = update
     if AUTH_CHANNEL:
