@@ -23,8 +23,8 @@ API_HASH = environ.get("API_HASH", "c8e3c0561cf148a6504f27b111fc3698")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 PICS = (environ.get('PICS', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq8pvhe3kiB5-jx_ss40anyqwFywyoUypIlw&usqp=CAU')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "") # without @
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5983189506').split()]
+BOT_USERNAME = environ.get("BOT_USERNAME", "MiniFiles_Bot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
@@ -80,7 +80,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://testofvjfilter-1fa60b1b8498.herokuapp.com/")
+URL = environ.get("URL", "https://changing-gavra-instant-d92ed19c.koyeb.app/")
 
 
 # Don't Remove Credit Tg - @VJ_Botz
